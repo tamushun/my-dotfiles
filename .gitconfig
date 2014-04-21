@@ -1,16 +1,18 @@
 [alias]
-	st = status
-	ch = checkout
-#	cob = checkout -b
-	br = branch
-#	bra = branch -a
-#	del = branch -D
-	co = commit
-#	coma = commit -a
-#	comm = commit -m
-#	comam = commit -am
-#	def = deff
+  st = status
+  ch = checkout
+# cob = checkout -b
+  br = branch
+# bra = branch -a
+# del = branch -D
+  co = commit
+# coma = commit -a
+# comm = commit -m
+# comam = commit -am
+# def = deff
 
 [user]
-	name = Shuntaro Tamura
-	email = shuntamu@gmail.com
+  name = Shuntaro Tamura
+  email = shuntamu@gmail.com
+[color]
+	ui = auto
