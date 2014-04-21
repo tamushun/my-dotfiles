@@ -1,3 +1,7 @@
+if [ -f $HOME/.git-completion.bash ]; then
+  source $HOME/.git-completion.bash
+fi
+
 alias g='git'
 alias gs='git status'
 alias gd='git diff'

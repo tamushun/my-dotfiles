@@ -1,18 +1,18 @@
 [alias]
   st = status
-  ch = checkout
-# cob = checkout -b
-  br = branch
-# bra = branch -a
-# del = branch -D
-  co = commit
-# coma = commit -a
-# comm = commit -m
-# comam = commit -am
-# def = deff
+  df = diff
+  dfc = diff --cashed
+  dfs = diff --staged
+  co = checkout
+  cob = checkout -b
+  b = branch
+  ci = commit
+  pl = pull
+  ps = push
 
 [user]
-  name = Shuntaro Tamura
+  name = tamushun
   email = shuntamu@gmail.com
 [color]
-	ui = auto
+  ui = auto
+
