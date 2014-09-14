@@ -13,6 +13,7 @@ install mysql || true
 # install brew-cask
 install brew-cask
 
+cask install alfred
 cask install bettertouchtool
 cask install dropbox
 cask install evernote
