@@ -21,14 +21,6 @@ alias gsu='git submodule update --init --recursive'
 alias gcd='git checkout develop'
 alias gmnf='git merge --no-ff'
 
-# Etc
-alias xcode='open -a Xcode'
-alias cd..='cd ..'
-alias ..='cd ..'
-alias mo='open -a Mou'
-alias k='open -a Kobito'
-alias la='ls -al'
-
 # Sirok
 alias gprun='cd ~/pickaxe-server/pickaxe-core/;mvn clean install -Dmaven.test.skip=true;cd ../pickaxe-web;mvn tomcat7:run'
 alias gbrun='cd ~/hub-server/hub-core/;mvn clean install -Dmaven.test.skip=true;cd ../hub-web;mvn tomcat7:run'
